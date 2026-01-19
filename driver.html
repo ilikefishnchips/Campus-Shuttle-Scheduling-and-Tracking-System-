@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Driver Dashboard</title>
+  <script src="java/data.js"></script>
+</head>
+<body>
+
+<h2>Driver Dashboard</h2>
+
+<p><b>Assigned Route:</b> Hostel → Campus</p>
+<p><b>Current Status:</b> <span id="driverStatus">On Time</span></p>
+
+<button onclick="updateStatus('On Time')">On Time</button>
+<button onclick="updateStatus('Delayed')">Delayed</button>
+
+<br><br>
+<button onclick="reportIncident()">Report Incident</button>
+
+<br><br>
+<a href="mainpage.html">Logout</a>
+
+</body>
+</html>
